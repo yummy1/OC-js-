@@ -15,6 +15,15 @@
 		673F71331E5684960036FB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673F71311E5684960036FB10 /* LaunchScreen.storyboard */; };
 		673F713E1E5684960036FB10 /* OC__jsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F713D1E5684960036FB10 /* OC__jsTests.m */; };
 		673F71491E5684960036FB10 /* OC__jsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F71481E5684960036FB10 /* OC__jsUITests.m */; };
+		673F715B1E56998C0036FB10 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673F715A1E56998C0036FB10 /* JavaScriptCore.framework */; };
+		673F715E1E56A0910036FB10 /* JSCallOCUseURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F715D1E56A0910036FB10 /* JSCallOCUseURLViewController.m */; };
+		673F71611E56A11F0036FB10 /* JSCallOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F71601E56A11F0036FB10 /* JSCallOCViewController.m */; };
+		673F71631E56A3980036FB10 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 673F71621E56A3980036FB10 /* JSCallOC.html */; };
+		673F71671E56A3E10036FB10 /* OCCallJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F71651E56A3E10036FB10 /* OCCallJSViewController.m */; };
+		673F71681E56A3E10036FB10 /* OCCallJSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673F71661E56A3E10036FB10 /* OCCallJSViewController.xib */; };
+		673F716A1E56A6430036FB10 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 673F71691E56A6430036FB10 /* test.js */; };
+		673F716C1E56A76D0036FB10 /* JSCallOCUseURLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673F716B1E56A76D0036FB10 /* JSCallOCUseURLViewController.xib */; };
+		673F71701E56A9410036FB10 /* urljs.html in Resources */ = {isa = PBXBuildFile; fileRef = 673F716F1E56A9410036FB10 /* urljs.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		673F71441E5684960036FB10 /* OC交互jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC交互jsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		673F71481E5684960036FB10 /* OC__jsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC__jsUITests.m; sourceTree = "<group>"; };
 		673F714A1E5684960036FB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673F715A1E56998C0036FB10 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		673F715C1E56A0910036FB10 /* JSCallOCUseURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCUseURLViewController.h; sourceTree = "<group>"; };
+		673F715D1E56A0910036FB10 /* JSCallOCUseURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCUseURLViewController.m; sourceTree = "<group>"; };
+		673F715F1E56A11F0036FB10 /* JSCallOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCViewController.h; sourceTree = "<group>"; };
+		673F71601E56A11F0036FB10 /* JSCallOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCViewController.m; sourceTree = "<group>"; };
+		673F71621E56A3980036FB10 /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		673F71641E56A3E10036FB10 /* OCCallJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCallJSViewController.h; sourceTree = "<group>"; };
+		673F71651E56A3E10036FB10 /* OCCallJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCallJSViewController.m; sourceTree = "<group>"; };
+		673F71661E56A3E10036FB10 /* OCCallJSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCCallJSViewController.xib; sourceTree = "<group>"; };
+		673F71691E56A6430036FB10 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		673F716B1E56A76D0036FB10 /* JSCallOCUseURLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCallOCUseURLViewController.xib; sourceTree = "<group>"; };
+		673F716F1E56A9410036FB10 /* urljs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = urljs.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673F715B1E56998C0036FB10 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,7 @@
 				673F713C1E5684960036FB10 /* OC交互jsTests */,
 				673F71471E5684960036FB10 /* OC交互jsUITests */,
 				673F71211E5684960036FB10 /* Products */,
+				673F71591E56998C0036FB10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,17 @@
 				673F71271E5684960036FB10 /* AppDelegate.m */,
 				673F71291E5684960036FB10 /* ViewController.h */,
 				673F712A1E5684960036FB10 /* ViewController.m */,
+				673F715C1E56A0910036FB10 /* JSCallOCUseURLViewController.h */,
+				673F715D1E56A0910036FB10 /* JSCallOCUseURLViewController.m */,
+				673F716B1E56A76D0036FB10 /* JSCallOCUseURLViewController.xib */,
+				673F716F1E56A9410036FB10 /* urljs.html */,
+				673F715F1E56A11F0036FB10 /* JSCallOCViewController.h */,
+				673F71601E56A11F0036FB10 /* JSCallOCViewController.m */,
+				673F71621E56A3980036FB10 /* JSCallOC.html */,
+				673F71641E56A3E10036FB10 /* OCCallJSViewController.h */,
+				673F71651E56A3E10036FB10 /* OCCallJSViewController.m */,
+				673F71661E56A3E10036FB10 /* OCCallJSViewController.xib */,
+				673F71691E56A6430036FB10 /* test.js */,
 				673F712C1E5684960036FB10 /* Main.storyboard */,
 				673F712F1E5684960036FB10 /* Assets.xcassets */,
 				673F71311E5684960036FB10 /* LaunchScreen.storyboard */,
@@ -138,6 +172,14 @@
 				673F714A1E5684960036FB10 /* Info.plist */,
 			);
 			path = "OC交互jsUITests";
+			sourceTree = "<group>";
+		};
+		673F71591E56998C0036FB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				673F715A1E56998C0036FB10 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673F716C1E56A76D0036FB10 /* JSCallOCUseURLViewController.xib in Resources */,
+				673F716A1E56A6430036FB10 /* test.js in Resources */,
+				673F71681E56A3E10036FB10 /* OCCallJSViewController.xib in Resources */,
 				673F71331E5684960036FB10 /* LaunchScreen.storyboard in Resources */,
 				673F71301E5684960036FB10 /* Assets.xcassets in Resources */,
+				673F71701E56A9410036FB10 /* urljs.html in Resources */,
 				673F712E1E5684960036FB10 /* Main.storyboard in Resources */,
+				673F71631E56A3980036FB10 /* JSCallOC.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				673F712B1E5684960036FB10 /* ViewController.m in Sources */,
+				673F715E1E56A0910036FB10 /* JSCallOCUseURLViewController.m in Sources */,
 				673F71281E5684960036FB10 /* AppDelegate.m in Sources */,
 				673F71251E5684960036FB10 /* main.m in Sources */,
+				673F71671E56A3E10036FB10 /* OCCallJSViewController.m in Sources */,
+				673F71611E56A11F0036FB10 /* JSCallOCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

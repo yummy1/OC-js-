@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OCCallJSViewController.h
 //  OC交互js
 //
 //  Created by 毛毛 on 2017/2/17.
@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface ViewController : UIViewController
-@end
+#import <JavaScriptCore/JavaScriptCore.h>
 
+@interface OCCallJSViewController : UIViewController
+
+@end
